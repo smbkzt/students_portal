@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3.5"
+install:
+  - pip install -r req.txt
+env:
+  - DJANGO=1.11
+
+script:
+- python manage.py check
+- python manage.py test
+- flake8
+notifications:
+  email: False
