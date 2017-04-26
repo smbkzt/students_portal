@@ -1,2 +1,2 @@
 # Students portal
-*Portal for storing information about students, groups, timetables, events*
+*Web-portal for storing information about students, groups, timetables, events*
