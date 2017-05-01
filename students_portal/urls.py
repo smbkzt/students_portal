@@ -20,6 +20,7 @@ from schedule import views
 
 
 urlpatterns = [
+    url('^$', views.index, name='index_page'),
     url(r'^admin/', admin.site.urls),
     url(r'^schedule/', views.ScheduleList.as_view())
 ]

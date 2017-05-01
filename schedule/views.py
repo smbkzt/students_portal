@@ -1,8 +1,13 @@
+from django.http import HttpResponse
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from .models import Schedule
 from .serializers import ScheduleSerializer
+
+
+def index(request):
+    return HttpResponse("")
 
 
 class ScheduleList(APIView):
